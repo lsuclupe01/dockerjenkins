@@ -1,6 +1,7 @@
 version: '3'
 services:
   jenkins:
+    user: root
     image: jenkins/docker
     build:
       context: /root/repository-git/dockerjenkins
